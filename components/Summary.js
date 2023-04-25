@@ -3,9 +3,9 @@ import React from "react";
 const Summary = ({ icon, category, score }) => {
   return (
     <>
-      <div className="flex flex-col gap-4 text-[18px] font-bold ">
+      <div className="flex flex-col  xl:gap-4 text-[18px] font-bold ">
         {category == "Reaction" ? (
-          <div className="flex gap-2 items-center px-4 py-3 rounded-lg justify-between w-full bg-[#FF5757]/10 text-black">
+          <div className="flex gap-2 items-center px-4 py-3.5 rounded-lg justify-between w-full bg-[#FF5757]/10 text-black">
             <div className="flex-none">
               <img src={icon}></img>
             </div>
@@ -15,7 +15,7 @@ const Summary = ({ icon, category, score }) => {
             </div>
           </div>
         ) : category == "Memory" ? (
-          <div className="flex gap-2 items-center px-4 py-3 rounded-lg justify-between w-full bg-[#FFB01F]/10 text-black">
+          <div className="flex gap-2 items-center px-4 py-3.5 rounded-lg justify-between w-full bg-[#FFB01F]/10 text-black">
             <div className="flex-none">
               <img src={icon}></img>
             </div>
@@ -25,7 +25,7 @@ const Summary = ({ icon, category, score }) => {
             </div>
           </div>
         ) : category == "Verbal" ? (
-          <div className="flex gap-2 items-center px-4 py-3 rounded-lg justify-between w-full bg-[#00BD91]/10 text-black">
+          <div className="flex gap-2 items-center px-4 py-3.5 rounded-lg justify-between w-full bg-[#00BD91]/10 text-black">
             <div className="flex-none">
               <img src={icon}></img>
             </div>
@@ -35,7 +35,7 @@ const Summary = ({ icon, category, score }) => {
             </div>
           </div>
         ) : (
-          <div className="flex gap-2 items-center px-4 py-3 rounded-lg justify-between w-full bg-[#1125D4]/10 text-black">
+          <div className="flex gap-2 items-center px-4 py-3.5 rounded-lg justify-between w-full bg-[#1125D4]/10 text-black">
             <div className="flex-none ">
               <img src={icon}></img>
             </div>
