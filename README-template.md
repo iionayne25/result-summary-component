@@ -25,14 +25,14 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ### Links
 
 - Solution URL: [GitHub](https://github.com/iionayne25/resultSummaryComponent)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://result-summary-component-mu-three.vercel.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- Tailwind CSS
+- CSS custom properties
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
