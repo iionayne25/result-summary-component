@@ -3,7 +3,7 @@ import React from 'react'
 const ResultScore = () => {
   return (
     <>
-      <div className="flex mt-0 py-4 h-[400px] overflow-scroll  px-5 rounded-b-[40px] xl:w-1/2 xl:h-[500px] xl:rounded-3xl bg-gradient-to-b from-[#7857FF] to-[#2E2BE9]">
+      <div className="flex mt-0 py-4 h-[400px] overflow-scroll xl:overflow-hidden  px-5 rounded-b-[40px] xl:w-1/2 xl:h-[500px] xl:rounded-3xl bg-gradient-to-b from-[#7857FF] to-[#2E2BE9]">
             <div className="flex flex-col justify-between items-center w-full ">
               <div>
                 <p className="text-[#C8C7FF]  font-bold">Your Result</p>
@@ -23,7 +23,7 @@ const ResultScore = () => {
                   Great
                 </p>
                 <p className="text-[18px] font-medium px-5 text-[#C8C7FF]">
-                  You scored higher than 65% of ofthe people who have taken
+                  You scored higher than 65% of the people who have taken
                   these tests.
                 </p>
               </div>
