@@ -11,7 +11,7 @@ const Summary = ({ icon, category, score }) => {
             </div>
             <div className="flex-1 w-24  text-[#FF5757]">{category}</div>
             <div className="text-[#303B5A]">
-              {score} <span className="text-[#303B5A]/50">/ 100</span>
+              {score} <span className="text-[#303B5A]/50"> / 100</span>
             </div>
           </div>
         ) : category == "Memory" ? (
@@ -21,7 +21,7 @@ const Summary = ({ icon, category, score }) => {
             </div>
             <div className="flex-1 w-24  text-[#FFB01F]">{category}</div>
             <div className="text-[#303B5A]">
-              {score} <span className="text-[#303B5A]/50">/ 100</span>
+              {score} <span className="text-[#303B5A]/50"> / 100</span>
             </div>
           </div>
         ) : category == "Verbal" ? (
@@ -31,7 +31,7 @@ const Summary = ({ icon, category, score }) => {
             </div>
             <div className="flex-1 w-24  text-[#00BD91]">{category}</div>
             <div className="text-[#303B5A]">
-              {score} <span className="text-[#303B5A]/50">/ 100</span>
+              {score} <span className="text-[#303B5A]/50"> / 100</span>
             </div>
           </div>
         ) : (
@@ -43,7 +43,7 @@ const Summary = ({ icon, category, score }) => {
               {category}
             </div>
             <div className="text-[#303B5A]">
-              {score} <span className="text-[#303B5A]/50">/ 100</span>
+              {score} <span className="text-[#303B5A]/50"> / 100</span>
             </div>
           </div>
         )}
